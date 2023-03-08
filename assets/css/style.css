@@ -1,0 +1,154 @@
+:root {
+    --branco-principal: #ffffff;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+}
+
+.principal {
+    background-image: url("/assets//img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+}
+
+.conteudo {
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    padding: 12.5rem 0 12.5rem 5.4rem;
+}
+
+.titulo {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.img_combo {
+    width: 60%;
+}
+
+.assinatura {
+    display: flex;
+    flex-direction: column;
+    width: 87%;
+    gap: 1.6rem;
+}
+
+.link, .link_botao {
+    font-size: 1.6rem;
+    font-weight: 400;;
+    text-decoration: none;
+    padding: 1.6rem 0;
+    color: var(--branco-principal);
+    border-radius: 8px
+}
+
+.link_botao {
+    background-color: var(--botao-azul);
+}
+
+.link {
+    border: 1px solid var(--branco-principal);
+}
+
+.observacao {
+    font-size: 1.2rem;
+    color: var(--cinza-secundario);
+}
+
+.secundario {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin: 0 10em;
+    column-gap: 5em;
+}
+
+
+.secundario_imagem {
+    width: 70%;
+}
+
+.descricao__titulo {
+    font-size: 4.8rem;
+    font-weight: 700;
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    font-size: 1.6rem;
+    color: var(--cinza-secundario);
+}
+
+.descrica__link {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 1.6rem 1rem;
+}
+
+.terciario {
+    text-align: center;
+    margin-bottom: 14.5rem;
+}
+
+.container__dispositivos {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    list-style: none;
+}
+
+.dispositivo__nome {
+    font-size: 3.2rem;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer__link {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 1.6rem;
+    margin: 4rem 0 2.4rem 0;
+}
+
+.footer__link a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+
+.footer__link a:hover {
+    color: var(--botao-azul);
+}
+
+.footer__info {
+    font-size: 1.4rem;
+    color: var(--cinza-secundario);
+}
+
+.link_botao:hover{
+    background-color: aquamarine;
+}
